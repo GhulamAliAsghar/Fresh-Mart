@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Playfair Display", serif;
+}
+
+.uni-search img {
+    position: absolute;
+    left: 245px;
+    top: -4px;
+}
+
+.uni-search button {
+    border: none;
+    background-color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+nav {
+    background-image: url(..//imges/no-text-1_97d351ba-97e8-4fab-9db4-7261cf2e93ed_1920x\ \(1\).webp);
+}
+
+.hire-me {
+    padding-left: 566px;
+    margin-bottom: 100px;
+}
+
+.hire-me .p1{
+    font-size: 37px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+.form-input input:focus {
+    outline: none;
+}
+
+form textarea {
+    width: 1060px;
+}
+
+form textarea:focus{
+    outline: none;
+}
+
+.hire-btn {
+    padding: 15px 55px;
+    margin: 20px 0px;
+    border-radius: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+
+.footer {
+    background-color: #E3E0D3;
+}
+
+.subs-btn button {
+    left: 220px;
+    top: -40px;
+    border-radius: 0px 60px 60px 0px;
+    font-size: 16px;
+}
+
+.subs-btn input {
+    border-radius: 60px;
+    height: 40px;
+}
+
+footer {
+    background-color: #E3E0D3;
+}
+
+footer span p {
+    font-size: 12px;
+}
+
+@media(max-width:576px) {
+
+    header input {
+        height: 30px;
+    }
+
+    .dropdown {
+        margin-left: 25px;
+    }
+
+    .footer {
+        background-color: #E3E0D3;
+        height: 1000px;
+    }
+
+    form input {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: #E8E3E5 solid 3px;
+        margin: 20px 0px;
+        width: 300px;
+        padding: 10px;
+    }
+
+    form textarea {
+        width: 300px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: #E8E3E5 solid 3px;
+    }
+}
